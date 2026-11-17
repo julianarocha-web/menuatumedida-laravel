@@ -1,0 +1,1 @@
+<span class="status-badge status-{{ $order->currentStatus() }}">{{ $order->statusLabel() }}</span>
